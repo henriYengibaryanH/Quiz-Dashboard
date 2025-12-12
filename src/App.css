@@ -1,7 +1,25 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+  width:100%;
+  height:100%
 }
-
+.routerDiv{
+  display: flex;
+  flex-direction: row;
+  width:20%;
+  height:40px;
+  padding:10px
+}
+.routerDiv button{
+  background: #282c34;
+  width:240px;
+  color:wheat;
+  font-weight:  bold;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +30,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+html{
+  width:100%;
+  height:100%
+}
+body{
+  width:100%;
+  height:100%
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +60,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+#root{
+  width:100%;
+  height:100%
 }
