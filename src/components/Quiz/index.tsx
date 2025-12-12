@@ -57,6 +57,9 @@ const onMoveNext=()=>{
      setRecomendataionIds(newRec)
 
     }, [selected, list, current])
+    if(!list.length){
+        return <span style={{fontSize:50}}>Please for first fill the quiz on Dashboard</span>
+    }
  return(
      <div
          style={{
