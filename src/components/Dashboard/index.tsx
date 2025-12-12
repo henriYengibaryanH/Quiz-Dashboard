@@ -211,3 +211,5 @@ export default function Dashboard({products}:Props) {
             </div>
         )
 }
+
+export {}
